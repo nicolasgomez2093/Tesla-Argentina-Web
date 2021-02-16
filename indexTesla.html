@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Tesla.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./IMG/tesla-logo-8068FDA2E7-seeklogo.com.png" type="image/x-icon">
+    <title>Tesla Argentina</title>
+  </head>
+  <body class="text-tesla">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="./IMG/tesla-logo-8068FDA2E7-seeklogo.com.png" width="90" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+            
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto text-uppercase text-btn">
+            <li class="navg nav-item active p-2">
+              <a class="nav-link" href="#productos">Productos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navg nav-item p-2">
+              <a class="nav-link" href="#tecnologia">Tecnologia</a>
+            </li>
+            <li class="navg nav-item p-2">
+              <a class="nav-link" href="#historia">Historia</a>
+            </li>
+            <li class="navg nav-item p-2">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Header -->
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMG/Header.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-uppercase text-header">
+                  <h1 class="text-header"> <b> MODEL S</b></h1>
+                  <p class="text-header">El futuro ya llego!</p>
+                  <a class="btn btn-primary btn-xl js-scroll-trigger w-25 p-2 text-btn" target="_blank" href="https://www.tesla.com/es_MX/findus?bounds=58.5384265555881%2C-39.237305875000004%2C14.68771621614686%2C-159.295899625&zoom=4&filters=store">Pedi el tuyo!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <!-- Seccion con productos -->
+    <section id="productos" class="page-section m-5">
+        <h1 class="text-center my-5"> <b> PRODUCTOS</b></h1>
+    <div class="text-center m-auto container row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#modelS">
+          <div class="shadow style-card card h-100">
+            <img src="./IMG/Tesla-Model-S-Plaid.jpg" class="card-recorte card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MODEL S</h5>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+            </div>
+          </div>
+        </button>
+        </div>
+          
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#model3">
+          <div class="card style-card shadow h-100">
+            <img src="./IMG/Tesla model 3.jpg" class="card-recorte card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MODEL 3</h5>
+              <!-- <p class="card-text">This is a short card.</p> -->
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#modelX">
+          <div class="card style-card shadow h-100">
+            <img src="./IMG/Tesla model x.jpg" class="card-recorte card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MODEL X</h5>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#modelY">
+          <div class="card style-card shadow h-100">
+            <img src="./IMG/Tesla model y.jpg" class="card-recorte card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MODEL Y</h5>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#cybertrunk">
+        <div class="card style-card shadow h-100">
+              <img src="./IMG/Tesla cybertrunk.jpg" class="card-recorte card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CYBERTRUNK</h5>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              </div>
+            </div>
+            </button>
+        </div>
+        <div class="col mb-4">
+          <button type="button" class="btn" data-toggle="modal" data-target="#semi">
+          <div class="card style-card shadow h-100">
+              <img src="./IMG/Tesla-Semi.jpg" class="card-recorte card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SEMI</h5>
+                <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              </div>
+          </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de tecnologia verde -->
+    <section class="bg-color py-1" id="tecnologia">
+        <h1 class="text-uppercase text-center my-5"> <b> TECNOLOGIAS VERDES</b></h1>
+        <div class="m-auto text-center container row row-cols-1 row-cols-md-2">
+            <div class="col mb-3">
+              <div class="bg-color border-0 card mx-5 h-100">
+                <img src="./IMG/bateria tesla.jpg" class="shadow card-tech mx-auto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-uppercase card-title my-3"><b>Bateria de LITIO</b></h5>
+                  <p class="card-text">This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="bg-color border-0 card mx-5 h-100">
+                <img src="./IMG/estacion de carga.jpg" class="shadow card-tech mx-auto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-uppercase card-title my-3"><b>Estacion de carga</b></h5>
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </section>
+
+    <!-- Seccion sobre la empresa -->
+    
+    
+
+    <!-- Elon musk -->
+    <section class="page-section pb-5" id="historia">
+      <h1 class="text-uppercase text-center my-5"> <b>FUNDADOR</b></h1>
+      <div class="m-auto border-0 card mb-3" style="max-width: 800px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 text-center">
+            <img src="./IMG/elon-musk-director-de-testa-y-spacex.jpeg" class="card-foto rounded-circle shadow" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="pl-5 card-body">
+              <h5 class="card-title"><b>Elon Musk</b></h5>
+              <p class="card-text">Elon Reeve Musk es un físico, emprendedor, inventor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI.</p>
+              <br>
+              <div>
+                <a class="icons mr-3" href=""><i class="fab fa-facebook"></i></a>
+                <a class="icons mr-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="icons"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion de contacto -->
+    <section class="bg-color py-5" id="contacto">
+      <div class="container">
+        <div class="row justify-content-lg-center ">
+          <div class="col-md-6 p-5">
+            <h2>Contacto</h2>
+            <p>Comunicate con nuestro servicio al cliente para responder tus dudas y conocer mas sobre nuestros productos.</p>
+          </div>
+          <div class="col-md-6 card-body align-items-center">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="well well-sm">
+                          <form class="form-horizontal" method="post">
+                              <fieldset>
+                                  <legend class="text-center header"></legend>
+          
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                      <div class="col-md-10">
+                                          <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                      <div class="col-md-10">
+                                          <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                      </div>
+                                  </div>
+          
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                      <div class="col-md-10">
+                                          <input id="email" name="email" type="email" placeholder="Correo electronico" class="form-control">
+                                      </div>
+                                  </div>
+          
+                                  <div class="form-group">
+                                      <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                      <div class="col-md-10">
+                                          <textarea class="form-control" id="message" name="message" placeholder="Deja tu mensaje" rows="7"></textarea>
+                                      </div>
+                                  </div>
+          
+                                  <div class="form-group">
+                                      <div class="col-md-10 text-start">
+                                          <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+                                      </div>
+                                  </div>
+                              </fieldset>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Seccion del footer -->
+    <footer class="footer container-fluid text-white bg-nav">
+        <div class="row p-2 align-items-center">
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="navg nav-link"><a style="text-decoration: none" class="text-white" href="#productos">Productos</a></li>
+              <li class="navg nav-link"><a style="text-decoration: none" class="text-white" href="#tecnologia">Tecnologia</a></li>
+              <li class="navg nav-link"><a style="text-decoration: none" class="text-white" href="#historia">Historia</a></li>
+              <li class="navg nav-link"><a style="text-decoration: none" class="text-white" href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          
+          <div class="col text-center my-auto">
+            <p>Todos los derechos reservados para TESLA S.A.</p>
+          </div>
+          <div class="col text-center">
+            <a class="p-4" href="">
+              <i class="fab fa-facebook-square icons-footer social-icon"></i>
+            </a>
+            <a class="p-4" href="http://google.com">
+                <i class="fab fa-instagram icons-footer social-icon"></i>
+            </a>
+            <a class="p-4" href="http://twitter.com">
+                <i class="fab fa-twitter-square icons-footer social-icon"></i>
+            </a>
+            </div>
+          
+        </div>
+      </div>
+
+    </footer>
+    <!-- MODAL MODEL S -->
+    <div class="modal fade" id="modelS" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">MODEL S</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="./IMG/Tesla-Model-S-Plaid.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>El Model S Plaid es el sedán de más alto desempeño jamás construido. Tanto los sistemas de propulsión de Autonomía Mayor como Plaid, con una arquitectura de batería actualizada, son capaces de realizar recorridos de un cuarto de milla consecutivos y consistentes.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MODEL 3 -->
+    <div class="modal fade" id="model3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">MODEL 3</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/Tesla model 3.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>El Tesla Model 3 es una berlina de dimensiones compactas y 100% eléctrica del segmento D, fabricada por Tesla desde 2016 y que se comercializa en España desde finales de 2018. El precio del Tesla Model 3 parte en España desde 48.200 euros. Cuenta con una gran batería de iones de litio que le proporciona una autonomía entre 415 y 544 kilómetros, dependiendo de la versión.
+
+              Tras los Tesla Model S y Tesla Model X, el fabricante californiano lanzó al mercado el Model 3 en marzo de 2016 y, en sólo 24 horas, el fabricante recibió 135.000 reservas. Ver artículo a fondo: Todo sobre el Tesla Model 3 2017, la gran revolución eléctrica.. El Tesla Model 3 también cuenta con una alternativa, en precios similares, que es un crossover compacto: el Tesla Model Y, que llegará a los concesionarios españoles en 2021.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MODEL X -->
+    <div class="modal fade" id="modelX" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">MODEL X</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/Tesla model x.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>Gracias a la mayor potencia y la aceleración más rápida de cualquier SUV, el Model X Plaid es el SUV con mayor desempeño jamás construido. Los sistemas de propulsión de Autonomía Mayor y Plaid, combinados con una arquitectura de batería actualizada, pueden ofrecer un par de torsión instantáneo a cualquier velocidad.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MODEL Y -->
+    <div class="modal fade" id="modelY" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">MODEL Y</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/Tesla model y.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>El Tesla Model Y es un SUV compacto y 100% eléctrico, del segmento D, fabricado por Tesla. Se trata de la versión crossover del Tesla Model 3, con quien comparte tecnología, plataforma, mecánicas y un 75% de los componentes.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MODEL CYBERTRUNK -->
+    <div class="modal fade" id="cybertrunk" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">CYBERTRUNK</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/Tesla cybertrunk.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>El Tesla Cybertruck es un vehículo comercial ligero eléctrico de 4 puertas y 6 plazas del fabricante estadounidense Tesla Motors presentado en noviembre de 2019. Se anunciaron tres versiones con autonomías de 400 a 800 km y aceleraciones de 0 a 100 km/h entre 2,9 y 6,5 segundos. El objetivo de Tesla con el desarrollo del Cybertruck es proporcionar un sustituto sostenible para los 6500 pickups que se venden cada día en Estados Unidos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MODEL SEMI -->
+    <div class="modal fade" id="semi" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-modal">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">CAMIONES SEMI</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/Tesla-Semi.jpg" class="card-img-top" alt="...">
+            <br>
+            <br>
+            <p>El Tesla Semi 2020 presume de un coeficiente aerodinámico de 0,36, un valor más similar al de coches como el Toyota Corolla –0,30– o el Audi A3 –0,31–, y mejor que el Bugatti Chiron –0,38–. Representa una reducción del 20% respecto a un camión convencional, con una reducción del consumo del 10% y un ahorro anual de miles de euros.
+
+              Los camiones térmicos suelen presentar una sección frontal muy vertical, dado que el espacio interior está ocupado por el motor de combustión. El Semi 2020 adopta un perfil inclinado inspirado en los trenes de alta velocidad para reducir la zona de alta presión, con la consiguiente reducción de drag.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
