@@ -81,15 +81,7 @@ input:hover {
 textarea:hover {
     border: solid 1px blue;
 }
-<<<<<<< HEAD
-/* input:valid {
-    border: solid 2px green;
-} */
-=======
-/*input:valid {
-    border: solid 2px green;
-}*/
->>>>>>> 7d79d7ef8d1f494981f980a777c8da5e2d8a2e53
+
 input:invalid {
     border: solid 1.5px red;
 }
